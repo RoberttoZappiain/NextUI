@@ -14,14 +14,22 @@ export const Content = () => (
           <source src={video} type='video/mp4' />
         </video>
 
-        <Row justify="center" align="center">
+        <Row justify="center" align="center" >
+          
           <Spacer y={1} />
-          <Button size="xl" icon={<NotificationIcon fill="currentColor" />} disabled shadow color="primary" auto>
-            Proximamente
-          </Button>
+          <Button size="xl"  icon={<NotificationIcon fill="currentColor" />} disabled shadow color="primary" auto>
+          Notificarme
+          </Button> 
+          <Spacer x={2} />
+
+          <Button size="xl" disabled shadow color="primary" auto>
+          Disponible finales 2022
+          </Button> 
           <Spacer y={1} />
+          
         </Row>
         <Row justify="center" align="center" css={{}}>
+          
           <Spacer y={1} />
           <Table />
           <Spacer y={1} />
